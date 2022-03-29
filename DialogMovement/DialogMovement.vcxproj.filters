@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="third-party\memwrapper\memwrapper\hde\hde32.cpp">
+      <Filter>memwrapper\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="third-party\memwrapper\memwrapper\x86\memwrapper_llmo.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\x86\memwrapper_allocator.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\x86\memwrapper_basic.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\x86\memwrapper_detail.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\x86\memwrapper_hook.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\hde\table32.h">
+      <Filter>memwrapper\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\hde\hde32.h">
+      <Filter>memwrapper\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="third-party\memwrapper\memwrapper\memwrapper.h">
+      <Filter>memwrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="memwrapper">
+      <UniqueIdentifier>{072ee9bd-d313-4948-a20a-6f3477e9b11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memwrapper\x86">
+      <UniqueIdentifier>{07c02f0b-3215-4459-9ffd-567dbd035293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memwrapper\hde">
+      <UniqueIdentifier>{55cfadc8-6be9-49d4-9546-8899ff1cf966}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

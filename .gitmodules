@@ -1,0 +1,3 @@
+[submodule "DialogMovement/third-party/memwrapper"]
+	path = DialogMovement/third-party/memwrapper
+	url = https://github.com/The-Musaigen/memwrapper.git
